@@ -14,3 +14,10 @@ Manual salary benchmarking is often slow and prone to bias. This analysis automa
 - **Python:** Data cleaning and modeling.
 - **Pandas & NumPy:** Feature engineering.
 - **Scikit-Learn:** Regression analysis.
+  
+### 📖 Data Dictionary
+| Variable | Definition | Ops Relevance |
+| :--- | :--- | :--- |
+| **YearsExperience** | Total professional tenure | Primary driver of seniority-based pay scales. |
+| **JobLevel** | Internal grading (1-5) | Used to align internal equity across departments. |
+| **Predicted_Salary** | Model Output | The target figure for departmental budget forecasting. |
